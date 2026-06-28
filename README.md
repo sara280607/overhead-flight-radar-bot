@@ -23,8 +23,8 @@ Open your cloned `main.py` template file and configure the target settings conta
 TELEGRAM_TOKEN = "your_private_chatid:alphanumeric_bot_token"
 TELEGRAM_CHAT_ID = your_numerical_account_id_without_quotes
 
-MY_LATITUDE = 17.346196    # Update to your roof latitude
-MY_LONGITUDE = 78.325792   # Update to your roof longitude
+MY_LATITUDE = 17.345    # Update to your roof latitude
+MY_LONGITUDE = 75.453   # Update to your roof longitude
 SCAN_RADIUS_NM = 15        # Airspace tracking sweep area radius
 # ==================================================================
 ```
@@ -32,7 +32,7 @@ SCAN_RADIUS_NM = 15        # Airspace tracking sweep area radius
 ### 3. Initiate the Background Process Loop
 Initialize the live tracker terminal application:
 ```bash
-python main.py
+python flight_git.py
 ```
 
 ---
